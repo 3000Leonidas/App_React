@@ -1,0 +1,8 @@
+/*Todo Items*/
+ul{ 
+    display: list-item;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 0 56px 0;
+}

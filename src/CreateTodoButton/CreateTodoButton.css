@@ -1,0 +1,33 @@
+.buttonCreate{
+    display: flex;
+    position: fixed;
+    width: 50px;
+    font-weight: bold;
+    height: 50px;
+    background-image:linear-gradient(to bottom, #a35ee8, #8f6ce2, #7a6adc, #6467d6, #4c64cf);
+    border: none;
+    color: #fff;
+    font-size: 50px;
+    right: 22%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.buttonCreate:hover{
+    background-image: linear-gradient(to bottom, #3b0de3, #0047f2, #0066f8, #007ff7, #0596f2);
+    border:none;
+    animation: giro;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    cursor: pointer;
+}
+@keyframes giro {
+    0%{
+        rotate: 0;
+    }
+    100%{
+        rotate: 720deg;
+    }
+}

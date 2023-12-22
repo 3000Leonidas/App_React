@@ -1,0 +1,19 @@
+/*Todo Search*/
+input{
+    width: 39em;
+    height: 2.5em;
+    margin: 0.5em 0;
+    background: transparent;
+    color: aliceblue;
+    padding-left: 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+input:placeholder-shown{
+    color: #ff0000;
+    font-weight: 900;
+}
+.TodoSearch:focus{
+    outline-color: darkblue;
+}

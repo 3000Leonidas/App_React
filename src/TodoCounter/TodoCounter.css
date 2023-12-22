@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Img/41456-league-of-legends.jpg);
+    background-size: cover;
+}
+/*Root o Cuerpo de la lista de tareas*/
+#root{
+    width: 45em;
+    height: max-content;
+    position: relative;
+    border-radius: 35px;
+    margin: 50px 0px;
+    padding: 20px 50px;
+    background-image: url(../Img/41391-league-of-legends.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+    /* top: -461px; */
+    /* opacity: 0.5;
+    transition: 1s; */
+}
+/* #root:hover{
+    /* top: 0;
+    transition: 1s; 
+    opacity: 1;
+} */
+
+.Title{
+    font-size:24px;
+    text-align:center;
+    margin:0;
+    padding:20px 10px;
+    font-weight: 400;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.Title span{
+    font-weight: 1000;
+}
