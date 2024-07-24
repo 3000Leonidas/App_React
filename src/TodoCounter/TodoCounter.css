@@ -13,11 +13,14 @@ body{
 }
 /*Root o Cuerpo de la lista de tareas*/
 #root{
-    width: 45em;
-    height: max-content;
-    position: relative;
+    width: max-content;
+    height: 26.2em;
+    position: -webkit-sticky;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color:  rgba(86, 25, 228, 0.342) #f1f1f118;
     border-radius: 35px;
-    margin: 50px 0px;
+    margin: 20px 0px;
     padding: 20px 50px;
     background-image: url(../Img/41391-league-of-legends.jpg);
     background-size: cover;
@@ -34,15 +37,16 @@ body{
 } */
 
 .Title{
+    display: block;
     font-size:24px;
     text-align:center;
     margin:0;
     padding:20px 10px;
     font-weight: 400;
     color: #fff;
-    font-weight: 500;
-    text-decoration: underline;
+    font-weight: bold;
+    /* text-decoration: underline; */
 }
 .Title span{
-    font-weight: 1000;
+    font-weight: bold;
 }
