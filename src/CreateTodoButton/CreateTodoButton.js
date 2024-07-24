@@ -11,7 +11,7 @@ function CreateTodoButton(){
                 console.log(event.target)
                 }
             }>
-                +
+                *
             </button>
         );
 

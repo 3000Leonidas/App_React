@@ -9,11 +9,11 @@ import React from 'react';
 
 
 const defaultTodos = [
-  { Text:'cortar cebolla', Completed:true },
-  { Text:'tomar el curso de intro a react.js', Completed:false },
-  { Text:'llorar con la llorona', Completed:false },
-  { Text:'Cristofer esta castigado', Completed:false},
-  { Text:'Usar estados devirados', Completed:true},
+  { Text:'empezar con el proyecto React', Completed:true },
+  { Text:'Es un Secreto', Completed:false },
+  { Text:'tomar el curso de intro a react.js', Completed:true },
+  { Text:'Esforzarse al 100% al máximo', Completed:false },
+  { Text:'Usar estados Proyecto 1 React.', Completed:true},
 ];
 
 function App() {
