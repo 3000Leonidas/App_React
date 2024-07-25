@@ -10,7 +10,7 @@ function TodoItem(props) {
         onComplete = {props.onComplete}
         />
 
-        <p className={` ${props.Completed && "TodoItem-p--complete"}`}>
+        <p className={`TodoItem-p ${props.Completed && "TodoItem-p--complete"}`}>
           {props.Text}
         </p>
 

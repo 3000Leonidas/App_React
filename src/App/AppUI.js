@@ -42,7 +42,7 @@ function AppUI(){
             {searchTodos.map(todo =>(
                 <TodoItem 
                 key={todo.Text} 
-                text={todo.Text}
+                Text={todo.Text}
                 Completed={todo.Completed}
                 onComplete={() => CompletedTodo(todo.Text)}
                 onDelete={() => DeleteTodo(todo.Text)}

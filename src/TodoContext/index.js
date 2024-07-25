@@ -14,7 +14,7 @@ function TodoProvider({children}){
       const [searchValue, setSearchValue] = 
       React.useState('');
       const [openModal, setOpenModal] = 
-      React.useState(true);
+      React.useState(false);
 
       const CompletedTodos = todos.filter(
         todo => !!todo.Completed).length
@@ -28,6 +28,16 @@ function TodoProvider({children}){
       
           return todoText.includes(searchtext);
       })
+
+      const addTodo = (Text) =>{
+        const newTodos = [...todos];
+        newTodos.push({
+          Text,
+          Completed: false,
+        }
+        );
+        saveTodos(newTodos);
+      };
     
       const CompletedTodo = (Text) =>{
         const newTodos = [...todos];
@@ -56,6 +66,7 @@ function TodoProvider({children}){
             searchValue,
             setSearchValue,
             searchTodos,
+            addTodo,
             CompletedTodo,
             DeleteTodo,
             openModal,

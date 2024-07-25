@@ -2,10 +2,10 @@
 li{
     display: flex;
     justify-content: space-around;
-    width: 29.2em;
+    width: 29em;
     padding: 10px;
     margin-top: 15px;
-    color: #fff;
+    color: rgb(212, 29, 29);
     border: 1px solid #000;
     border-radius: 10px;
 }
@@ -14,5 +14,5 @@ li > p{
     text-align: left;
     width: 100%;
     padding-left: 20px;
-    /* color: #fff; */
+    color: rgb(255, 255, 255);
 }

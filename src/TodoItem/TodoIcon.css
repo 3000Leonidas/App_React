@@ -21,6 +21,7 @@
 }
 .TodoItem-p--complete{
     text-decoration: line-through;
+    color: black;
 }
 .Icon-svg{
     width: 24px;
