@@ -1,5 +1,5 @@
 .buttonCreate{
-    display: grid;
+    display: flex;
     position: fixed;
     width: 55px;
     font-weight: bold;
@@ -13,7 +13,8 @@
     text-align: center;
     justify-content: center;
     border-radius: 25px;
-    padding-top: 0.5%;
+    padding-top: 0.9%;
+    z-index: 1;
 }
 
 .buttonCreate:hover{
