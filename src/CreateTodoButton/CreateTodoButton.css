@@ -1,6 +1,7 @@
 .buttonCreate{
-    display: flex;
-    position: fixed;
+    display: flexbox;
+    flex-direction: row;
+    position: absolute;
     width: 55px;
     font-weight: bold;
     height: 55px;
@@ -9,11 +10,11 @@
     color: #fff;
     font-size: 50px;
     right: 20%;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    justify-content: center;
     border-radius: 25px;
-    padding-top: 0.9%;
+    padding-top: 0.5%;
     z-index: 1;
 }
 
