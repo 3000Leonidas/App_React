@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.61580d7d.css",
-    "main.js": "/static/js/main.1197f80f.js",
-    "index.html": "/index.html",
-    "main.61580d7d.css.map": "/static/css/main.61580d7d.css.map",
-    "main.1197f80f.js.map": "/static/js/main.1197f80f.js.map"
+    "main.css": "/App_React/static/css/main.77b52704.css",
+    "main.js": "/App_React/static/js/main.b43fd500.js",
+    "static/media/41456-league-of-legends.jpg": "/App_React/static/media/41456-league-of-legends.965c7fc09ae2239f5401.jpg",
+    "static/media/41391-league-of-legends.jpg": "/App_React/static/media/41391-league-of-legends.3bd61e4946cb8e94c88b.jpg",
+    "static/media/d8tih77-247f7960-350d-4cc8-ac20-79e86c385169.svg": "/App_React/static/media/d8tih77-247f7960-350d-4cc8-ac20-79e86c385169.1e5721d07563bc2b854ca292013873b6.svg",
+    "static/media/2061132.svg": "/App_React/static/media/2061132.4b5818e6c7285b47e323e3d4e429e344.svg",
+    "index.html": "/App_React/index.html",
+    "main.77b52704.css.map": "/App_React/static/css/main.77b52704.css.map",
+    "main.b43fd500.js.map": "/App_React/static/js/main.b43fd500.js.map"
   },
   "entrypoints": [
-    "static/css/main.61580d7d.css",
-    "static/js/main.1197f80f.js"
+    "static/css/main.77b52704.css",
+    "static/js/main.b43fd500.js"
   ]
 }
